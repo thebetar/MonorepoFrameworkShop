@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-framework-shop",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nrwl/nx-cloud": "latest",
+    "nx": "15.9.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
